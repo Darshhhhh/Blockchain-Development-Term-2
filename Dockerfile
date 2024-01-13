@@ -4,4 +4,4 @@ COPY public/ /Lab-1/
 COPY src/ /Lab-1/src
 COPY package.json /Lab-1/    
 RUN npm install
-CMD ["npm", "start"]
+CMD ["npm", "run dev"]
